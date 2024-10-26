@@ -22,10 +22,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputMappingContext* InputMappingContext;
 
-	// Begin Actor interface
-protected:
 
+protected:
 	virtual void BeginPlay() override;
 
-	// End Actor interface
+	
 };
